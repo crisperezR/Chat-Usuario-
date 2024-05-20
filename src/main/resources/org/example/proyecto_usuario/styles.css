@@ -1,0 +1,54 @@
+.field-typea{
+    -fx-border-style: none none solid none;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #005D8B;
+    -fx-background-color: transparent;
+    -fx-pref-height: 30px;
+}
+
+.field-typeb{
+    -fx-border-style: none none solid none;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-color: #005D8B;
+    -fx-border-radius: 15;
+    -fx-background-color: transparent;
+    -fx-pref-height: 30px;
+}
+
+.field-label{
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #005D8B;
+    -fx-pref-height: 30px;
+}
+
+.label-chat{
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: #005D8B;
+    -fx-font-size: 24px;
+}
+
+.button-circle{
+    -fx-background-color: #0086BE;
+    -fx-background-radius: 40;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-font-family: "Roboto Black";
+}
+
+.button-circle:hover{
+    -fx-background-color: #2980b9;
+}
+
+.button-circle:pressed{
+    -fx-background-color: #005D8B;
+}
+
+.button-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #005D8B;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-font-size: 18px;
+}
